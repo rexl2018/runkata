@@ -1,4 +1,4 @@
-KataGo v1.3.5
+KataGo v1.4.2
 https://github.com/lightvector/KataGo
 
 -----------------------------------------------------
@@ -40,6 +40,20 @@ Extensive testing across different OSs and versions and compilers has not been d
 
 -----------------------------------------------------
 TUNING FOR PERFORMANCE:
+-----------------------------------------------------
 You will very likely want to tune some of the parameters in `default_gtp.cfg` for your system for good performance, including the number of threads, fp16 usage (CUDA only), NN cache size, pondering settings, and so on. You can also adjust things like KataGo's resign threshold or utility function. Most of the relevant parameters should be be reasonably well documented directly inline in that config.
 
 There are other a few notes about usage and performance at : https://github.com/lightvector/KataGo
+
+-----------------------------------------------------
+TROUBLESHOOTING:
+-----------------------------------------------------
+Some common issues are described here:
+https://github.com/lightvector/KataGo#common-causes-of-errors
+
+Or, feel free to hop into the Leela Zero discord chat, which has become a general chatroom for a variety of computer Go hobbyists and users, and which you can often find people willing to help.
+https://discord.gg/fhDHgfk
+
+
+
+
